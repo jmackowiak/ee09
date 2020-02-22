@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+  <head>
+    <title>Zmiana koloru</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="styl.css"/>
+    <script>
+    function zmien_czerwony(nowa_klasa, element)
+    {
+    	var el = document.getElementById(element);
+    	el.className = nowa_klasa;
+    }
+    function zmien_zielony(nowa_klasa, element)
+    {
+      var el = document.getElementById(element);
+      el.className = nowa_klasa;
+    }
+    </script>
+  </head>
+  <body id="tlelko" class="stara">
+    <br><br>
+    <input type="button" onclick="zmien_czerwony('czerwona', 'tlelko')" value="Zmiana na czerwono" />
+    <input type="button" onclick="zmien_zielony('zielona', 'tlelko')" value="Zmiana na zielono" />
+  </body>
+</html>

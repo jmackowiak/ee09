@@ -1,0 +1,16 @@
+* {
+  text-align: center;
+}
+
+.stara {
+  background-color: yellow;
+}
+
+.czerwona {
+	background-color: red;
+  font-style: italic;
+}
+
+.zielona {
+  background-color: green;
+}
